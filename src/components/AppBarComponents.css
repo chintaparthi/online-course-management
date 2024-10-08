@@ -1,0 +1,19 @@
+/* CSS for the background and layout */
+
+.background {
+  background-image: url('Desktop/library.png'); /* Adjust this path to your image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white; /* Adjust color if you need contrast */
+}
